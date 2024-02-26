@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    margin-top: 40px;
+}
+
+.product a {
+    color: rgb(4, 0, 0);
+    text-decoration: none;
+}
+
+.product input {
+    height: 10vh;
+    padding: 0px 0px 45px 5px;
+}
+
+.img-product {
+    width: 150px;
+}
+
+.prodotti {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.immagine {
+    display: none;
+}
